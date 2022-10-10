@@ -1,10 +1,10 @@
 {
-  "name": "yoanm/symfony-jsonrpc-params-validator",
+  "name": "symfonyx/symfony-jsonrpc-params-validator",
   "description": "Symfony bundle for easy JSON-RPC params validation",
   "license": "MIT",
   "type": "library",
   "support": {
-    "issues": "https://github.com/yoanm/symfony-jsonrpc-params-validator/issues"
+    "issues": "https://github.com/symfonyx/symfony-jsonrpc-params-validator/issues"
   },
   "config": {
     "sort-packages": true
@@ -29,7 +29,7 @@
     }
   },
   "suggest": {
-    "yoanm/symfony-jsonrpc-http-server": "Symfony Bundle to convert an HTTP json-rpc request into HTTP json-rpc response",
+    "symfonyx/symfony-jsonrpc-http-server": "Symfony Bundle to convert an HTTP json-rpc request into HTTP json-rpc response",
     "yoanm/symfony-jsonrpc-params-sf-constraints-doc": "To generate payload documentation from validation constraints"
   },
   "require": {
@@ -39,7 +39,7 @@
     "symfony/http-kernel": "^4.0 || ^5.0",
     "yoanm/jsonrpc-params-symfony-validator-sdk": "^2.0",
     "yoanm/jsonrpc-server-sdk": "^3.0",
-    "yoanm/symfony-jsonrpc-http-server": "^3.0"
+    "symfonyx/symfony-jsonrpc-http-server": "dev-master"
   },
   "require-dev": {
     "ext-json": "*",
