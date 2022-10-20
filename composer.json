@@ -47,7 +47,7 @@
     "symfony/config": "^4.0 || ^5.0",
     "symfony/dependency-injection": "^4.0 || ^5.0",
     "symfony/http-kernel": "^4.0 || ^5.0",
-    "yoanm/jsonrpc-params-symfony-validator-sdk": "^2.0",
+    "symfonyx/jsonrpc-params-symfony-validator-sdk": "dev-master",
     "symfonyx/jsonrpc-server-sdk": "dev-master",
     "symfonyx/symfony-jsonrpc-http-server": "dev-master"
   },
