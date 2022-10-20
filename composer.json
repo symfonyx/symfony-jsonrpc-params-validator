@@ -16,6 +16,16 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/symfonyx/php-jsonrpc-server-sdk.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/symfonyx/symfony-jsonrpc-http-server.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Yoanm\\SymfonyJsonRpcParamsValidator\\": "src"
@@ -29,7 +39,7 @@
     }
   },
   "suggest": {
-    "symfonyx/symfony-jsonrpc-http-server": "Symfony Bundle to convert an HTTP json-rpc request into HTTP json-rpc response",
+    "yoanm/symfony-jsonrpc-http-server": "Symfony Bundle to convert an HTTP json-rpc request into HTTP json-rpc response",
     "yoanm/symfony-jsonrpc-params-sf-constraints-doc": "To generate payload documentation from validation constraints"
   },
   "require": {
