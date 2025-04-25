@@ -36,8 +36,7 @@
     }
   },
   "suggest": {
-    "symfonyx/symfony-jsonrpc-http-server": "Symfony Bundle to convert an HTTP json-rpc request into HTTP json-rpc response",
-    "symfonyx/symfony-jsonrpc-params-sf-constraints-doc": "To generate payload documentation from validation constraints"
+    "yoanm/symfony-jsonrpc-params-sf-constraints-doc": "To generate payload documentation from validation constraints"
   },
   "require": {
     "php": "^8.0",
