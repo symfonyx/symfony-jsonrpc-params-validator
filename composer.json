@@ -16,6 +16,10 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "https://github.com/symfonyx/php-jsonrpc-params-symfony-validator-sdk.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/symfonyx/php-jsonrpc-server-sdk.git"
     },
     {
