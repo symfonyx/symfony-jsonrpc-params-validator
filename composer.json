@@ -47,9 +47,9 @@
     "symfony/config": "^4.4 || ^5.4 || ^6.0",
     "symfony/dependency-injection": "^4.4 || ^5.4 || ^6.0",
     "symfony/http-kernel": "^4.4 || ^5.4 || ^6.0",
-    "symfonyx/jsonrpc-params-symfony-validator-sdk": "dev-master",
-    "symfonyx/jsonrpc-server-sdk": "dev-master",
-    "symfonyx/symfony-jsonrpc-http-server": "dev-master"
+    "symfonyx/jsonrpc-params-symfony-validator-sdk": "^2.1",
+    "symfonyx/jsonrpc-server-sdk": "^3.3",
+    "symfonyx/symfony-jsonrpc-http-server": "^3.4"
   },
   "require-dev": {
     "ext-json": "*",
