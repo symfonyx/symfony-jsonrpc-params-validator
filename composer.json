@@ -43,13 +43,13 @@
     "yoanm/symfony-jsonrpc-params-sf-constraints-doc": "To generate payload documentation from validation constraints"
   },
   "require": {
-    "php": ">=7.2",
+    "php": "^7.2 || ^8.0",
     "symfony/config": "^4.0 || ^5.0",
     "symfony/dependency-injection": "^4.0 || ^5.0",
     "symfony/http-kernel": "^4.0 || ^5.0",
-    "symfonyx/jsonrpc-params-symfony-validator-sdk": "dev-master",
-    "symfonyx/jsonrpc-server-sdk": "dev-master",
-    "symfonyx/symfony-jsonrpc-http-server": "dev-master"
+    "symfonyx/jsonrpc-params-symfony-validator-sdk": "2.0.*",
+    "symfonyx/jsonrpc-server-sdk": "^3.0",
+    "symfonyx/symfony-jsonrpc-http-server": "3.0.*"
   },
   "require-dev": {
     "ext-json": "*",
